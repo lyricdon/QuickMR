@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68ADD45725898AC600AD12E6 /* VersionDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 68ADD45625898AC600AD12E6 /* VersionDataModel.m */; };
+		68DD6F86258863C700A05749 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DD6F85258863C700A05749 /* AppDelegate.m */; };
+		68DD6F89258863C700A05749 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DD6F88258863C700A05749 /* ViewController.m */; };
+		68DD6F8B258863C700A05749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68DD6F8A258863C700A05749 /* Assets.xcassets */; };
+		68DD6F8E258863C800A05749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68DD6F8C258863C800A05749 /* Main.storyboard */; };
+		68DD6F91258863C800A05749 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DD6F90258863C800A05749 /* main.m */; };
+		68DD6F9D2588643200A05749 /* PreferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DD6F992588643200A05749 /* PreferViewController.m */; };
+		68DD6F9E2588643200A05749 /* versionPub-State in Resources */ = {isa = PBXBuildFile; fileRef = 68DD6F9A2588643200A05749 /* versionPub-State */; };
+		68DD6F9F2588643200A05749 /* versionPub-Merge in Resources */ = {isa = PBXBuildFile; fileRef = 68DD6F9B2588643200A05749 /* versionPub-Merge */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		68ADD45525898AC600AD12E6 /* VersionDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VersionDataModel.h; sourceTree = "<group>"; };
+		68ADD45625898AC600AD12E6 /* VersionDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VersionDataModel.m; sourceTree = "<group>"; };
+		68DD6F81258863C700A05749 /* QuickMR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickMR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68DD6F84258863C700A05749 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		68DD6F85258863C700A05749 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		68DD6F87258863C700A05749 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		68DD6F88258863C700A05749 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		68DD6F8A258863C700A05749 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68DD6F8D258863C800A05749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68DD6F8F258863C800A05749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68DD6F90258863C800A05749 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68DD6F992588643200A05749 /* PreferViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferViewController.m; sourceTree = "<group>"; };
+		68DD6F9A2588643200A05749 /* versionPub-State */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "versionPub-State"; sourceTree = "<group>"; };
+		68DD6F9B2588643200A05749 /* versionPub-Merge */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "versionPub-Merge"; sourceTree = "<group>"; };
+		68DD6F9C2588643200A05749 /* PreferViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferViewController.h; sourceTree = "<group>"; };
+		68DD6FA12588643900A05749 /* keyDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = keyDefine.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68DD6F7E258863C700A05749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68DD6F78258863C700A05749 = {
+			isa = PBXGroup;
+			children = (
+				68DD6F83258863C700A05749 /* QuickMR */,
+				68DD6F82258863C700A05749 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68DD6F82258863C700A05749 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68DD6F81258863C700A05749 /* QuickMR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68DD6F83258863C700A05749 /* QuickMR */ = {
+			isa = PBXGroup;
+			children = (
+				68DD6F84258863C700A05749 /* AppDelegate.h */,
+				68DD6F85258863C700A05749 /* AppDelegate.m */,
+				68DD6F87258863C700A05749 /* ViewController.h */,
+				68DD6F88258863C700A05749 /* ViewController.m */,
+				68DD6F9C2588643200A05749 /* PreferViewController.h */,
+				68DD6F992588643200A05749 /* PreferViewController.m */,
+				68ADD45525898AC600AD12E6 /* VersionDataModel.h */,
+				68ADD45625898AC600AD12E6 /* VersionDataModel.m */,
+				68DD6FA12588643900A05749 /* keyDefine.h */,
+				68DD6F9B2588643200A05749 /* versionPub-Merge */,
+				68DD6F9A2588643200A05749 /* versionPub-State */,
+				68DD6F8A258863C700A05749 /* Assets.xcassets */,
+				68DD6F8C258863C800A05749 /* Main.storyboard */,
+				68DD6F8F258863C800A05749 /* Info.plist */,
+				68DD6F90258863C800A05749 /* main.m */,
+			);
+			path = QuickMR;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68DD6F80258863C700A05749 /* QuickMR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68DD6F95258863C800A05749 /* Build configuration list for PBXNativeTarget "QuickMR" */;
+			buildPhases = (
+				68DD6F7D258863C700A05749 /* Sources */,
+				68DD6F7E258863C700A05749 /* Frameworks */,
+				68DD6F7F258863C700A05749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickMR;
+			productName = MCMR;
+			productReference = 68DD6F81258863C700A05749 /* QuickMR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68DD6F79258863C700A05749 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					68DD6F80258863C700A05749 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 68DD6F7C258863C700A05749 /* Build configuration list for PBXProject "QuickMR" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68DD6F78258863C700A05749;
+			productRefGroup = 68DD6F82258863C700A05749 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68DD6F80258863C700A05749 /* QuickMR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68DD6F7F258863C700A05749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68DD6F8B258863C700A05749 /* Assets.xcassets in Resources */,
+				68DD6F8E258863C800A05749 /* Main.storyboard in Resources */,
+				68DD6F9F2588643200A05749 /* versionPub-Merge in Resources */,
+				68DD6F9E2588643200A05749 /* versionPub-State in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68DD6F7D258863C700A05749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68DD6F9D2588643200A05749 /* PreferViewController.m in Sources */,
+				68DD6F89258863C700A05749 /* ViewController.m in Sources */,
+				68ADD45725898AC600AD12E6 /* VersionDataModel.m in Sources */,
+				68DD6F91258863C800A05749 /* main.m in Sources */,
+				68DD6F86258863C700A05749 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		68DD6F8C258863C800A05749 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68DD6F8D258863C800A05749 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68DD6F93258863C800A05749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		68DD6F94258863C800A05749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		68DD6F96258863C800A05749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MCMR/MCMR.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = QuickMR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyric.ios.QuickMR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		68DD6F97258863C800A05749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MCMR/MCMR.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = QuickMR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyric.ios.QuickMR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68DD6F7C258863C700A05749 /* Build configuration list for PBXProject "QuickMR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68DD6F93258863C800A05749 /* Debug */,
+				68DD6F94258863C800A05749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68DD6F95258863C800A05749 /* Build configuration list for PBXNativeTarget "QuickMR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68DD6F96258863C800A05749 /* Debug */,
+				68DD6F97258863C800A05749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68DD6F79258863C700A05749 /* Project object */;
+}

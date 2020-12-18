@@ -1,0 +1,37 @@
+#!/bin/bash
+
+set -e
+
+PROJECT_URL=$1
+Merge_Request_IID=$2
+PROJECT_ID=$3
+PRIVATE_TOKEN=$4
+
+echo -e "
+PROJECT_ID              $PROJECT_ID
+PROJECT_URL             $PROJECT_URL
+Merge_Request_IID       $Merge_Request_IID"
+
+GITLAB_URL=`echo $PROJECT_URL | cut -d "/" -f 1,2,3`
+API_URL=$GITLAB_URL/api/v4
+
+mergeMR() {
+    echo &(curl -X PUT --header "PRIVATE-TOKEN: ${PRIVATE_TOKEN}" \
+    "$API_URL/projects/$PROJECT_ID/merge_requests/$Merge_Request_IID/merge" 2>/dev/null)
+}
+
+# Accept merge request
+if [[ $Merge_Request_IID == *[0-9] ]]; then
+    merge_request_res=$(mergeMR)
+    state=`echo "$merge_request_res"|grep "\"state\":\"merged\""|head -1`
+        
+    if [[ -z "$state" ]]; then
+        echo "Merge FAILURE $merge_request_res"
+    else
+        echo "Merge SUCCESS: $API_URL/projects/$PROJECT_ID/merge_requests/$Merge_Request_IID"
+    fi
+else
+    echo "Merge_Request_IID Error: $Merge_Request_IID"
+fi
+
+exit 0
